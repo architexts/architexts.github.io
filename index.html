@@ -50,34 +50,49 @@
                     <h2 class="section-heading text-uppercase">What do we do?</h2>
                     <h3 class="section-subheading text-muted">What are some features of LACY?</h3>
                 </div>
-                <div class="text-center">
-                    <div class="mb-5">
+                <div class="feature-grid">
+                    <!-- Left column -->
+                    <div class="feature-column">
+                      <div class="feature-card">
                         <span class="fa-stack fa-4x">
-                            <i class="fas fa-square fa-stack-2x text-primary"></i>
-                            <i class="fas fa-regular fa-laptop-code fa-stack-1x fa-inverse"></i>
+                          <i class="fas fa-square fa-stack-2x text-primary"></i>
+                          <i class="fas fa-regular fa-laptop-code fa-stack-1x fa-inverse"></i>
                         </span>
-                        <h4 class="my-3">Code Tours </h4>
-                        <p class="text-muted">The Codebase Tour feature simplifies navigating large codebases with tailored exploratory and guided tours. 
-                            Exploratory tours focus on understanding existing features, while guided tours, curated by experts, highlight key components and their relationships. This ensures all stakeholders, technical or non-technical, can efficiently interact with the codebase and gain relevant insights.</p>
+                        <h4 class="my-3">Code Tours</h4>
+                        <p class="text-muted">The Codebase Tour feature simplifies navigating large codebases with tailored exploratory and guided tours. Exploratory tours focus on understanding existing features, while guided tours, curated by experts, highlight key components and their relationships. This ensures all stakeholders, technical or non-technical, can efficiently interact with the codebase and gain relevant insights.</p>
+                      </div>
+                  
+                      <div class="feature-card">
+                        <span class="fa-stack fa-4x">
+                          <i class="fas fa-square fa-stack-2x text-primary"></i>
+                          <i class="fas fa-regular fa-podcast fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Quizzes</h4>
+                        <p class="text-muted">At the end of each tour take the quizzes to enhance your understanding. If you do not understand the context during a tour step you can ask questions or write notes.</p>
+                      </div>
                     </div>
-                    
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-square fa-stack-2x text-primary"></i>
-                        <i class="fas fa-regular fa-window-restore fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Quizes</h4>
-                    <p class="text-muted">At the end of each tour take the quizes to enhance your understanding. If you do not understand the context during a tour step you can ask questions or write notes.</p>
-                 
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-square fa-stack-2x text-primary"></i>
-                        <i class="fas fa-regular fa-comment-dots fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Dashboard</h4>
-                    <p class="text-muted">Codebase experts can monitor the progress of the tours and quizes. They can also see the questions asked by the users and answer them. This way they can understand which parts of the codebase are not clear to the users.</p>
-                    </p>
-                
-                </div>
-            </div>
+                  
+                    <!-- Right column -->
+                    <div class="feature-column">
+                      <div class="feature-card">
+                        <span class="fa-stack fa-4x">
+                          <i class="fas fa-square fa-stack-2x text-primary"></i>
+                          <i class="fas fa-regular fa-window-restore fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Podcast</h4>
+                        <p class="text-muted">You can also listen to the tour like a podcast. Our system explains the codebase in a natural, conversational style—guiding you through files, logic, and design choices just like a senior developer would. It's a hands-free way to explore and understand complex projects.</p>
+                      </div>
+                  
+                      <div class="feature-card">
+                        <span class="fa-stack fa-4x">
+                          <i class="fas fa-square fa-stack-2x text-primary"></i>
+                          <i class="fas fa-regular fa-comment-dots fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Dashboard</h4>
+                        <p class="text-muted">Codebase experts can monitor the progress of the tours and quizzes. They can also see the questions asked by the users and answer them. This way they can understand which parts of the codebase are not clear to the users.</p>
+                      </div>
+                    </div>
+                  </div>                  
         </section>
         <!-- Academic Reports-->
         <section class="page-section bg-light" id="portfolio">
@@ -123,31 +138,45 @@
                             </div>
                         </div>
                     </div>
-                    <!--
+                    
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <div style="cursor: pointer;" onclick="location.href='';" class="portfolio-caption">
+                            <div
+                                style="cursor: pointer;"
+                                onclick="redirectToReport('Detailed Design Report')"
+                                class="portfolio-caption"
+                            >
                                 <div class="portfolio-caption-heading">Detailed Design Report</div>
-                                <div class="portfolio-caption-subheading text-muted">Date</div>
+                                <div class="portfolio-caption-subheading">25.04.2025</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                         <div class="portfolio-item">
-                            <div style="cursor: pointer;" onclick="location.href='';" class="portfolio-caption">
+                            <div
+                                style="cursor: pointer;"
+                                onclick="redirectToReport('Final Report')"
+                                class="portfolio-caption"
+                            >
                                 <div class="portfolio-caption-heading">Final Report</div>
-                                <div class="portfolio-caption-subheading text-muted">Date</div>
+                                <div class="portfolio-caption-subheading">05.05.2025</div>
                             </div>
                         </div>
                     </div>
+                    <!--
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                         <div class="portfolio-item">
-                            <div style="cursor: pointer;" onclick="location.href='';" class="portfolio-caption">
+                            <div
+                                style="cursor: pointer;"
+                                onclick="redirectToReport('Final Presentation')"
+                                class="portfolio-caption"
+                            >
                                 <div class="portfolio-caption-heading">Final Presentation</div>
-                                <div class="portfolio-caption-subheading text-muted">Date</div>
+                                <div class="portfolio-caption-subheading">06.05.2025</div>
                             </div>
                         </div>
                     </div>
+                    
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                         <div class="portfolio-item">
                             <div style="cursor: pointer;" onclick="location.href='';" class="portfolio-caption">
@@ -281,6 +310,18 @@
                 link: "https://docs.google.com/document/d/1Al0hqctEYin63p3AvLTen9N01NQTeR1MkKytMqTubeU/edit?usp=sharing",
             },
             "Demo Presentation": {
+                password: "Architexts24!!",
+                link: "https://docs.google.com/presentation/d/1SCdPh7Rb2ceh0FGGMH8l9H6CRuutz0vU/edit?usp=sharing&ouid=105466177877995096710&rtpof=true&sd=true",
+            },
+            "Detailed Design Report": {
+                password: "Architexts24!!",
+                link: "https://docs.google.com/document/d/12A-93mdCIntcEYWUX2hkXTCrjYtVw0llEtqaFDLaQd0/edit?usp=sharing",
+            },
+            "Final Report": {
+                password: "Architexts24!!",
+                link: "https://docs.google.com/document/d/1PEgwJIgYTkHbu9mYkI5E0ngl5VLP6JmC84f0UPOJQZo/edit?usp=sharing",
+            },
+            "Final Presentation": {
                 password: "Architexts24!!",
                 link: "https://docs.google.com/presentation/d/1SCdPh7Rb2ceh0FGGMH8l9H6CRuutz0vU/edit?usp=sharing&ouid=105466177877995096710&rtpof=true&sd=true",
             },
