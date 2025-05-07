@@ -10955,14 +10955,15 @@ p {
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
-  text-align: center;
+  text-align: right;
   color: #fff;
-  background-image: url("../assets/img/hero-bg.png");
+  background-image: url("../assets/img/logos/background.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
 }
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -10970,6 +10971,7 @@ header.masthead .masthead-subheading {
   margin-bottom: 25px;
   color: #ffffff !important;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: right;
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
@@ -10978,24 +10980,28 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
   color: #ffffff !important;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-align: right;
 }
 
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
+    text-align: right;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;
+    text-align: right;
   }
   header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+    text-align: right;
   }
 }
 #portfolio .portfolio-item {
