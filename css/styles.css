@@ -10971,7 +10971,7 @@ header.masthead .masthead-subheading {
   margin-bottom: 25px;
   color: #ffffff !important;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-align: right;
+  text-align: center;
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
@@ -10980,30 +10980,31 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
   color: #ffffff !important;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-align: right;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
-    text-align: right;
+    text-align: center;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;
-    text-align: right;
+    text-align: center;
   }
   header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
-    text-align: right;
+    text-align: center;
   }
 }
+
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
