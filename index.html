@@ -45,6 +45,19 @@
                   </div>
             </div>
         </header>
+        <!-- Demo Video Section -->
+        <section class="page-section text-white text-center" id="demo">
+            <div class="container">
+            <h2 class="section-heading text-uppercase">Demonstration</h2>
+            <div class="ratio ratio-16x9 mt-4">
+                <iframe
+                src="https://www.youtube.com/embed/Jmt-MEW8mtU"
+                title="LACY Demo"
+                allowfullscreen
+                ></iframe>
+            </div>
+            </div>
+        </section>
         <!-- About Us-->
         <section class="page-section" id="services">
             <div class="container">
@@ -165,30 +178,6 @@
                             </div>
                         </div>
                     </div>
-                    <!--
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <div class="portfolio-item">
-                            <div
-                                style="cursor: pointer;"
-                                onclick="redirectToReport('Final Presentation')"
-                                class="portfolio-caption"
-                            >
-                                <div class="portfolio-caption-heading">Final Presentation</div>
-                                <div class="portfolio-caption-subheading">06.05.2025</div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <div class="portfolio-item">
-                            <div style="cursor: pointer;" onclick="location.href='';" class="portfolio-caption">
-                                <div class="portfolio-caption-heading">CS Fair Poster</div>
-                                <div class="portfolio-caption-subheading text-muted">Date</div> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                -->
             </div>
             <br/>
             <br/>
@@ -330,14 +319,8 @@
         };
     
         function redirectToReport(reportName) {
-            const userInput = prompt(`Enter password to access the ${reportName}`);
-            const report = reports[reportName];
-    
-            if (report && userInput === report.password) {
-                window.location.href = report.link;
-            } else {
-                alert("Incorrect password. Please try again.");
-            }
+            const report = reports[reportName];  
+            window.location.href = report.link; 
         }
     </script>
 </html>
